@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Test from '../components/test'
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>New portfolio 2021</h1>
+        <Test />
       </main>
 
       <footer />

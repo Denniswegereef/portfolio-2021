@@ -1,0 +1,31 @@
+@import '../variables';
+
+.heading {}
+
+.paragraph {}
+
+.rich-text {}
+
+// @include mq-regular {
+//   .subheading {
+//     font-size: rem(22px);
+//     line-height: rem(30px);
+//   }
+
+//   .paragraph {
+//     font-size: rem(18px);
+//     line-height: rem(27px);
+//   }
+// }
+
+// @include mq-wide {
+//   .subheading {
+//     font-size: rem(32px);
+//     line-height: rem(40px);
+//   }
+
+//   .paragraph {
+//     font-size: rem(20px);
+//     line-height: rem(35px);
+//   }
+// }

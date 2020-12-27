@@ -1,0 +1,99 @@
+// @font-face {
+//   font-family: $font-family-canela;
+//   src: url('~assets/fonts/canela/Canela-Regular.woff2') format('woff2'),
+//   url('~assets/fonts/canela/Canela-Regular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: $font-family-corsa;
+//   src: url('~assets/fonts/corsa-grotesk/CorsaGrotesk-Medium.woff2') format('woff2'),
+//   url('~assets/fonts/corsa-grotesk/CorsaGrotesk-Medium.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: $font-family-commons;
+//   src: url('~assets/fonts/tt-commons/tt_commons_medium.woff2') format('woff2'),
+//   url('~assets/fonts/tt-commons/tt_commons_medium.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @mixin font-canela-regular() {
+//   @include text-rendering();
+
+//   font-family: $font-family-canela, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @mixin font-corsa-medium() {
+//   @include text-rendering();
+
+//   font-family: $font-family-corsa, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @mixin font-commons-medium() {
+//   @include text-rendering();
+
+//   font-family: $font-family-commons, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// // -----
+
+// @font-face {
+//   font-family: $font-family-giselle;
+//   src: url('~assets/fonts/fh-giselle/FHGiselle-Regular.woff2') format('woff2'),
+//   url('~assets/fonts/fh-giselle/FHGiselle-Regular.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: $font-family-favorit;
+//   src: url('~assets/fonts/favorit/Favorit-Bold.woff2') format('woff2'),
+//   url('~assets/fonts/favorit/Favorit-Bold.woff') format('woff');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @font-face {
+//   font-family: $font-family-favorit;
+//   src: url('~assets/fonts/favorit/Favorit-Light.woff2') format('woff2'),
+//   url('~assets/fonts/favorit/Favorit-Light.woff') format('woff');
+//   font-weight: 100;
+//   font-style: normal;
+// }
+
+// @mixin font-giselle-regular() {
+//   @include text-rendering();
+
+//   font-family: $font-family-giselle, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// @mixin font-favorit-bold() {
+//   @include text-rendering();
+
+//   font-family: $font-family-favorit, sans-serif;
+//   font-weight: 600;
+//   font-style: bold;
+// }
+
+// @mixin font-favorit-light() {
+//   @include text-rendering();
+
+//   font-family: $font-family-favorit, sans-serif;
+//   font-weight: 100;
+//   font-style: normal;
+// }
+
+// // -----

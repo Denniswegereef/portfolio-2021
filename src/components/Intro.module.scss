@@ -1,0 +1,38 @@
+// .heading {
+//   color: red;
+// }
+@import '../styles/variables.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  text-align: center;
+}
+
+.heading {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  
+  z-index: 3;
+}
+
+.heading__span {
+  font-size: 2.5rem;
+  display: block;
+}
+
+.image__container {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  height: 670px;
+  width: 404px;
+  background-color: green;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}

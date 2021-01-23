@@ -1,0 +1,11 @@
+.mouse {
+  position: absolute;
+  height: 2rem; 
+  width: 2rem;
+  border-radius: 100%;
+  background: #fff;
+  opacity: 0.5;
+  z-index: 9;
+  cursor: default;
+  transition: opacity 1.5s;
+}

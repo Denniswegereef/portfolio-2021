@@ -1,10 +1,12 @@
-// @font-face {
-//   font-family: $font-family-canela;
-//   src: url('~assets/fonts/canela/Canela-Regular.woff2') format('woff2'),
-//   url('~assets/fonts/canela/Canela-Regular.woff') format('woff');
-//   font-weight: 400;
-//   font-style: normal;
-// }
+@import '../variables';
+
+@font-face {
+  font-family: $font-family-bagnard;
+  src: url('/fonts/BagnardSans.woff2') format('woff2'),
+  url('/fonts/BagnardSans.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
 
 // @font-face {
 //   font-family: $font-family-corsa;

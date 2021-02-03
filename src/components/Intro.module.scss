@@ -4,35 +4,17 @@
 @import '../styles/variables.scss';
 
 .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
-
-  text-align: center;
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
 }
 
 .heading {
   font-size: 3.5rem;
-  text-transform: uppercase;
-  
-  z-index: 3;
+  margin: 0;
 }
 
-.heading__span {
-  font-size: 2.5rem;
-  display: block;
-}
-
-.image__container {
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  height: 670px;
-  width: 404px;
-  background-color: green;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
+.heading__second {
+  font-size: 2.0rem;
+  margin: 0;
 }

@@ -1,9 +1,9 @@
-import Mouse from '../components/Mouse'
+// import Mouse from '../components/Mouse'
 
 const MainLayout = ({ children }) => {
   return (
     <>
-      <Mouse/>
+      {/* <Mouse/> */}
       <main>{ children }</main>
     </>
   );

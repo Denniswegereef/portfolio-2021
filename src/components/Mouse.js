@@ -3,8 +3,9 @@ import styles from './Mouse.module.scss'
 import { UseMouseMove } from '../hooks/UseMouseMove'
 
 let firstMouseMove = false
-let elementHeight
-let elementWidth
+let elementHeight = 0
+let elementWidth = 0
+let test = 0
 
 const Mouse = () => {
   const mouseEvent = UseMouseMove()
@@ -14,15 +15,17 @@ const Mouse = () => {
     const elementBounding = mouseElement.current.getBoundingClientRect()
     elementHeight = elementBounding.height
     elementWidth = elementBounding.width
-
+    
   }, [mouseElement])
 
   useEffect(() => {
     firstMouseMove = true
+    test = Math.random()
   }, [mouseEvent])
 
   return (
-    <div
+    <>
+        <div
       ref={mouseElement}
       className={styles.mouse}
       style={{
@@ -30,6 +33,8 @@ const Mouse = () => {
         left: mouseEvent.clientX - (elementWidth / 2),
         opacity: firstMouseMove ? 1 : 0
       }}/>
+      <h2 style={{color: 'red'}}>{test}</h2> 
+    </>
   );
 }
  
